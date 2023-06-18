@@ -1,3 +1,5 @@
+/*Styles by Cosmos Adedero*/
+
 @font-face {
     font-family: HankenGrotesk;
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
@@ -29,6 +31,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/*Styles for the left hand side containing the results*/
 .result {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 20px;
@@ -81,6 +84,9 @@ body {
     font-size: 16px;
     color: hsl(241, 100%, 89%);
 }
+
+
+/*Styles for the right hand side containing the summary*/
 
 .summary {
     display: grid;
@@ -153,7 +159,7 @@ body {
 }
 
 
-
+/* Screen responsiveness*/
 @media only screen and (max-width:750px) {
 
     .wrapper {
