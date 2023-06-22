@@ -110,6 +110,9 @@ body {
     place-content: center;
 }
 
+.summary .box:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 .box > p:nth-child(2) {
     font-weight: bolder;
@@ -122,7 +125,7 @@ body {
 
 .box > p:nth-child(3) span {
     font-weight: bolder;
-    color: hsl(224, 30%, 27%,.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .reaction {
@@ -156,6 +159,7 @@ body {
 
 .continue button:hover {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
 }
 
 
